@@ -90,7 +90,7 @@ nav a {
 
 /* Also Global styles */
 section {
-    padding: 10vw 1rem;
+    padding: 2vw 1rem;
     max-width: 1200px;
     margin: 0 auto;
     text-align: left;
@@ -146,7 +146,7 @@ section p {
 
 /* Gallery styles */
 .gallery {
-    padding: 2rem 1rem;
+    padding: 2vm 1rem;
     text-align: center;
 }
 
