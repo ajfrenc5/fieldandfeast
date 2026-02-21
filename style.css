@@ -79,7 +79,7 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 10vw;
+    gap: 35vw;
 }
 
 nav a {
@@ -108,9 +108,7 @@ section p {
     margin-bottom: 1.5rem;
 }
 
-section.gallery {
-    border-bottom: none;
-}
+
 
 /* Offerings sections */
 .offerings-container {
@@ -192,7 +190,10 @@ figcaption {
 }
 
 .gallery-button {
-    display: inline-block;
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     background-color: var(--olive-green);
     color: white;
     text-decoration: none;
