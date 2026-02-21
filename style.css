@@ -34,11 +34,11 @@ body {
     line-height: 1.6;
     text-align: center;
 }
-
+/* Header & Logo */
 header {
     background-color: var(--midnight-blue);
     color: var(--soft-white);
-    padding: 2.5rem 1rem;
+    padding: 2.5rem 1rem 0 1rem;
 }
 
 .logo {
@@ -93,7 +93,7 @@ figcaption {
     display: inline-block;
     background-color: var(--olive-green);
     color: white;
-    padding: 1rem 2 rem;
+    padding: 1rem 2 rem 0;
 }
 
 footer {
