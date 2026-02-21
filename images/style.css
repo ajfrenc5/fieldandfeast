@@ -27,6 +27,86 @@ img {
 }
 
 /* GLOBAL STYLES (mobile first/small) */
+body {
+    font-family: var(--main-font);
+    background-color: var(--soft-white);
+    color: var(--dark-charcoal);
+    line-height: 1.6;
+    text-align: center;
+}
+
+header {
+    background-color: var(--midnight-blue);
+    color: var(--soft-white);
+    padding: 2.5rem 1rem;
+}
+
+.logo {
+    margin: 0 auto 1.5rem;
+    max-width: 180px;
+}
+
+nav {
+    background-color: var(--champagne-gold);
+    padding: 12px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: var(--midnight-blue);
+    font-weight: 700;
+}
+
+section {
+    padding: 3.5rem 1.5rem;
+    margin: 0 auto;
+}
+
+.offering-card {
+    background-color: var(--olive-green);
+    color: var(--soft-white);
+    margin-bottom: 1.5rem;
+    padding: 2rem;
+    text-align: left;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin: 2rem 0;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.gallery-button {
+    display: inline-block;
+    background-color: var(--olive-green);
+    color: white;
+    padding: 1rem 2 rem;
+}
+
+footer {
+    background-color: var(--midnight-blue);
+    color: var(--champagne-gold);
+    padding: 3rem 1rem;
+}
+
+footer a {
+    color: var(--champagne-gold);
+}
+
+
 
 /* MEDIA QUERY (medium) */
 
